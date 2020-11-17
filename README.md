@@ -4,29 +4,16 @@ CS370 project 2
 Braden Lee
 Oregon State University
 
-NOTES:
----------------
-all files are provided in the folder
-
-  -images and the encrypted equivalents
-
-  -p3_2.py is part 3.2
-  
-  -p3_3w.py is for 3.3 weak collision resistance
-  (near the end of the program it may seem like weak collision is frozen but it just takes a few seconds to finish up)
-  
-  -p3_3s.py is for 3.3 strong collision resistance
-  
-  
-  I included the .bak files just in case to test the reverse if you want.
-  My observations are located in the pdf within the folder provided.
+Bloom filter program. This program generates output3.txt and output5.txt for results of checking passwors against bloom filter 1 and bloom filter 2
 
 INSTRUCTIONS to compile & run
 ---------------
-1. make sure the "words.txt" file is in the same directory as the "p3_2.py" program to correctly test for part 3.2 in the project assigment.
+1. make sure the "dictionary.txt" file and the "sample_input.txt" file are in the same directory as the "bloom_filters.py" program to correctly execute the program.
 
-2. To compile. "python2 p3_2.py"
-               "python2 p3_3w.py"
-               "python2 p3_3s.py"
+2. To compile. "python2 bloom_filters.py dictionary.txt sample_input.txt output3.txt output5.txt"
 
+- Side note:  dictionary.txt is arg[1]
+              sample_input.txt is arg[2] 
+              output3.txt is arg[3] 
+              output5.txt is arg[4]
 ---------------
